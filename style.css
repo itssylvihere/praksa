@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/slider.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 124px;
+}
+
+li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:20px ;
+}
+
+.nav-cont{
+    align-items: baseline;
+    background-color: #A62120;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 177.2px;
+    height: 177.2px;
+    left: 200px;
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 100px;
+}
+
+.nav2{
+    justify-content: right;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-right: 475px;
+    gap: 10px;
+    background-color: rgb(41, 41, 41);
+}
+
+p{
+    font-size: 14px;
+}
+
+.img2{
+    width: 15.05px;
+    height: 15px;
+}
+
+.slider.img1{
+    width: 1280px;
+    height: 679px;
+}
+
+h1{
+    font-size: 38px;
+    color: white;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.slider{
+    background: #0000004D;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    margin-right: 1300px;
+    margin-top: 150px;
+}
+
+div.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 90px;
+}
+
+div.box{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 350px;
+    justify-content: center;
+}
+
+h3{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 22px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+button{
+    background-color: #A62120;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin-top: 70px;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+div.big.image{
+    padding-left: 25px;
+}
