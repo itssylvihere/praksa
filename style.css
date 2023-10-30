@@ -47,7 +47,7 @@ ul{
     display: flex;
     color: white;
     align-items: center;
-    padding-right: 475px;
+    padding-right: 440px;
     gap: 10px;
     background-color: rgb(41, 41, 41);
 }
@@ -131,4 +131,32 @@ button{
 
 div.big.image{
     padding-left: 25px;
+}
+
+div.images{
+    justify-content: right;
+}
+
+div.box3{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+div.text2{
+    background-color: #A62120;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    padding-left: 400px;
+    padding-top: 100px;
+    padding-right: 325px;
+}
+
+.button2{
+    background-color: #ffffff;
+    color: black;
+    border-color: #A62120;
 }
