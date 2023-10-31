@@ -47,8 +47,9 @@ ul{
     display: flex;
     color: white;
     align-items: center;
-    padding-right: 440px;
+    padding-right: 460px;
     gap: 10px;
+    height: 30px;
     background-color: rgb(41, 41, 41);
 }
 
@@ -268,5 +269,20 @@ h5{
     font-size: 18px;
     font-weight: 700;
     color: #ffffff7a;
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+div.tekst{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div.pdf{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 14px;
+    max-height: 28px;
+    align-items: center;
+    padding-left: 20px;
 }
