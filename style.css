@@ -168,12 +168,6 @@ div.text2{
     padding-right: 325px;
 }
 
-.button2{
-    background-color: #ffffff;
-    color: black;
-    border-color: #A62120;
-}
-
 div.dis{
     display: flex;
     flex-direction: column;
@@ -286,3 +280,31 @@ div.pdf{
     align-items: center;
     padding-left: 20px;
 }
+
+div.box5{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.button2{
+    background-color: #ffffff;
+    color: black;
+    border-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+
+  }
