@@ -47,7 +47,7 @@ ul{
     display: flex;
     color: white;
     align-items: center;
-    padding-right: 460px;
+    padding-right: 430px;
     gap: 10px;
     height: 30px;
     background-color: rgb(41, 41, 41);
@@ -139,7 +139,8 @@ button{
 }
 
 div.button{
-    gap: 20px;
+    display: flex;
+    column-gap: 20px;
 }
 
 div.big.image{
@@ -228,7 +229,7 @@ div.box4{
     padding-top: 100px;
     justify-content: center;
     align-items: center;
-    margin-left: 450px;
+    margin-left: 460px;
     padding-bottom: 50px;
 }
 
@@ -289,6 +290,7 @@ div.box5{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding-bottom: 50px;
 }
 
 .button2{
@@ -305,6 +307,5 @@ div.box5{
 
 
 @media only screen and (max-width: 320px) {
-
 
   }
