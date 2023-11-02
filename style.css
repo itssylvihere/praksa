@@ -25,7 +25,6 @@ ul{
 }
 
 .nav-cont{
-    align-items: baseline;
     background-color: #A62120;
     display: flex;
     list-style-type: none;
@@ -345,7 +344,7 @@ div.ok{
 }
 
 div.bottom{
-    background-color: rgb(42, 42, 42);
+    background-color: #66000B;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -361,6 +360,12 @@ div.bottom{
 
 
 
+
+
+
 @media only screen and (max-width: 320px) {
+
+
+
 
   }
