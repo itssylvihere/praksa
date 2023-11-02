@@ -309,6 +309,7 @@ div.box5{
 div.contact{
     display: flex;
     justify-content: space-between;
+    padding-left: 50px;
 }
 
 div.social{
@@ -345,7 +346,7 @@ div.bottom{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 290px;
+    padding-left: 340px;
     padding-right: 250px;
 }
 
