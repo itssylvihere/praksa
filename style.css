@@ -91,19 +91,20 @@ h2{
     margin-top: 150px;
 }
 
-div.box2{
+.box2{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 90px;
 }
 
-div.box{
+.box{
     display: flex;
     flex-direction: row;
     color: white;
     padding-top: 350px;
     justify-content: center;
+    margin: 0 15% 0 15%;
 }
 
 h3{
@@ -127,31 +128,36 @@ button{
     border-width: 2px;
     margin-top: 70px;
     border-radius: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 50px 15px 50px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     row-gap: 20px;
     border-style: solid;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
-div.button{
+button:hover{
+    background-color: #ffffff;
+    color: black;
+    cursor: auto;
+}
+
+.button{
     display: flex;
     column-gap: 20px;
 }
 
-div.big.image{
+.big.image{
     padding-left: 25px;
 }
 
-div.images{
+.images{
     justify-content: right;
 }
 
-div.box3{
+.box3{
     display: flex;
     flex-direction: row;
     color: white;
@@ -159,17 +165,15 @@ div.box3{
     justify-content: center;
 }
 
-div.text2{
+.text2{
     background-color: #A62120;
-    padding: 0;
-    margin: 0;
     justify-content: center;
     padding-left: 400px;
     padding-top: 100px;
     padding-right: 325px;
 }
 
-div.dis{
+.dis{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +182,7 @@ div.dis{
     text-align: center;
 }
 
-div.row{
+.row{
     display: flex;
     flex-direction: row;
     justify-content:center ;
@@ -187,17 +191,17 @@ div.row{
     margin-bottom: 80px;
 }
 
-div.content{
+.content{
     justify-content: center;
 }
 
-div.line {
+.line {
     margin-top: 80px;
     justify-content: center;
     text-align: center;
 }
 
-div.text3{
+.text3{
     background-color: #A62120;
     padding-left: 120px;
     padding-top: 150px;
@@ -206,7 +210,7 @@ div.text3{
     font-size: 16px;
 }
 
-div.cover{
+.cover{
     padding-top: 180px;
     padding-bottom: 180px;
     background-image: url(images/04.jpg);
@@ -214,14 +218,14 @@ div.cover{
     text-align: center;
 }
 
-div.text4{
+.text4{
     padding-right: 405px;
     font-weight: 300;
     font-size: 16px;
     padding-left: 250px;
 }
 
-div.box4{
+.box4{
     display: flex;
     flex-direction: row;
     color: white;
@@ -232,7 +236,7 @@ div.box4{
     padding-bottom: 50px;
 }
 
-div.row2{
+.row2{
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -240,7 +244,7 @@ div.row2{
     align-items: center;
 }
 
-div.text5{
+.text5{
     font-weight: 300;
     font-size: 16px;
     justify-content: center;
@@ -248,7 +252,7 @@ div.text5{
     padding-right: 50px;
 }
 
-div.box3{
+.box3{
     display: flex;
     flex-direction: row;
     color: white;
@@ -266,12 +270,12 @@ h5{
     padding-top: 50px;
 }
 
-div.tekst{
+.tekst{
     text-align: center;
     padding-bottom: 50px;
 }
 
-div.pdf{
+.pdf{
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -281,7 +285,7 @@ div.pdf{
     padding-left: 20px;
 }
 
-div.box5{
+.box5{
     display: flex;
     flex-direction: row;
     color: white;
@@ -296,9 +300,18 @@ div.box5{
     background-color: #ffffff;
     color: black;
     border-color: #FF0000;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button2:hover{
+    background-color: #1b1b1b;
+    color: #f6f6f6;
+    cursor: auto;
 }
 
 .footer-item{
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -306,13 +319,13 @@ div.box5{
     margin-left: 250px;
 }
 
-div.contact{
+.contact{
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
 }
 
-div.social{
+.social{
     padding-right: 250px;
     display: flex;
     flex-direction: row;
@@ -324,9 +337,8 @@ ul.footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-bottom: 0px;
-    margin-top: 0;
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 footer{
@@ -334,14 +346,14 @@ footer{
     height: 175px;
 }
 
-div.ok{
+.ok{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
 }
 
-div.bottom{
+.bottom{
     background-color: #66000B;
     display: flex;
     flex-direction: row;
@@ -350,16 +362,15 @@ div.bottom{
     padding-right: 250px;
 }
 
-div.media{
+.media{
     gap: 10px;
     display: flex;
     flex-direction: row;
 }
 
-div.ilog{
+.ilog{
     align-self: center;
 }
-
 
 
 
