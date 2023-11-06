@@ -406,8 +406,17 @@ footer{
   padding: 50px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
+a:hover{
+  color: #000000;
+}
+
+a{
+  text-decoration: none;
+  color: #f6f6f6;
+}
 
 
 
