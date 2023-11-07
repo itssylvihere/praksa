@@ -5,6 +5,7 @@ body{
     background-image: url(images/slider.jpg);
     background-repeat: no-repeat;
     background-position-y: 124px;
+    background-size: 100%;
 }
 
 li{
@@ -102,7 +103,7 @@ h2{
     display: flex;
     flex-direction: row;
     color: white;
-    padding-top: 350px;
+    padding-top: 450px;
     justify-content: center;
     margin: 0 15% 0 15%;
 }
@@ -391,7 +392,7 @@ footer{
   display: flex;
   text-align: center;
   background-color: #282828;
-  padding: 20px;
+  padding: 30px;
   flex-direction: column;
   margin: 50px;
 }
@@ -417,12 +418,6 @@ a{
   text-decoration: none;
   color: #f6f6f6;
 }
-
-
-
-
-
-
 
 @media only screen and (max-width: 1100px) {
     .box {
@@ -453,6 +448,7 @@ a{
     
       .slider {
         display: none;
+        margin: 0;
       }
     
       .slider-mobile {
