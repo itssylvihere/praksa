@@ -216,6 +216,7 @@ ul {
   left: 200px;
   position: absolute;
   padding-top: 90px;
+  z-index: 15;
 }
 
 .nav2 {
