@@ -151,11 +151,6 @@ menu-toggle.open .bar:nth-child(3) {
 
 /* --- */
 
-html,
-body {
-  width: 100%;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -167,9 +162,23 @@ body {
   padding: 0;
   background-color: rgb(26, 26, 26);
   font-family: "Roboto", sans-serif;
-  background-image: url(images/slider.jpg);
-  background-repeat: no-repeat;
-  background-position-y: 124px;
+}
+
+.tekst{
+  position: absolute;
+  padding-left: 300px;
+  left: 0;
+  top: 200;
+
+}
+
+.slider{
+  position: relative;
+}
+
+.picture{
+  width: 100%;
+  height: auto;
 }
 
 li {
