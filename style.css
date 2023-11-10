@@ -91,6 +91,7 @@ menu-toggle.open .bar:nth-child(3) {
 
   .img1 {
     order: 1;
+    z-index: 1;
   }
 
   .menu-toggle {
@@ -164,11 +165,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.tekst{
+.teksst{
   position: absolute;
-  padding-left: 300px;
-  left: 0;
-  top: 200;
+  top: 200px;
+  background: rgba(0, 0, 0, 0.395);
+  padding-left: 200px;
+  width: fit-content;
+  max-width: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
 
 }
 
@@ -207,12 +213,9 @@ ul {
 }
 
 .img1 {
-  width: 177.2px;
-  height: 177.2px;
   left: 200px;
   position: absolute;
   padding-top: 90px;
-  padding-left: 50px;
 }
 
 .nav2 {
@@ -256,12 +259,6 @@ h2 {
 
 .slider {
   background: #0000004d;
-  padding-left: 300px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-right: 20px;
-  margin-right: 1300px;
-  margin-top: 150px;
 }
 
 .box2 {
@@ -275,7 +272,7 @@ h2 {
   display: flex;
   flex-direction: row;
   color: white;
-  padding-top: 350px;
+  padding-top: 150px;
   justify-content: center;
   margin: 0 15% 0 15%;
 }
@@ -335,7 +332,6 @@ button:hover {
   justify-content: center;
   padding-left: 400px;
   padding-top: 100px;
-  padding-right: 325px;
 }
 
 .dis {
@@ -522,7 +518,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 340px;
+  padding-left: 300px;
   padding-right: 250px;
 }
 
@@ -593,10 +589,6 @@ footer {
     padding: 0;
   }
 
-  .slider {
-    display: none;
-    margin: 0;
-  }
 
   .slider-mobile {
     margin: 700px 15% 0 15%;
